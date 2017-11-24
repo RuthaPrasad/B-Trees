@@ -4,9 +4,13 @@ To build and experiment with B-Trees as array implementations.
 Language Restriction: C
 
 Implement a B tree with the following operations:
+	
 	1.	create
+	
 	2.	insert
+	
 	3.	delete
+	
 	4.	search.
 
 Experiment with different values of t - the minimum degree of each node.
