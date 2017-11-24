@@ -1,0 +1,22 @@
+TIME TO INSERT 1M RECORDS: 216.158886 ms
+
+closest key value found in node with
+keys
+1000000 1691 1882 2040 2123 2179 2498 3409 3783 3893 
+links
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+TIME TO SEARCH FOR KEY(1876): 0.015383 ms
+
+after delete, closest key value found in node with
+keys
+1000000 1691 1882 2040 2123 2179 2498 3409 3783 3893 
+links
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+TIME TO DELETE KEY(1876): 0.010588 ms
+
+after insert,closest key value found in node with
+keys
+1000000 1691 1876 1882 2040 2123 2179 2498 3783 3893 
+links
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+TIME TO INSERT KEY(1876): 0.015298 ms
