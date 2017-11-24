@@ -1,0 +1,18 @@
+TIME TO INSERT 1M RECORDS: 1445.206900 ms
+
+closest key value found in node with
+keys :1000000 89 90 91 92 93 94 98 99 100 
+links :-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+TIME TO SEARCH FOR KEY(90): 0.001618 ms
+
+after delete, closest key value found in node with
+keys :1000000 89 91 92 93 94 98 99 100 -1 
+links :-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+TIME TO DELETE KEY(90): 0.001999 ms
+
+after insert,closest key value found in node with
+keys :1000000 89 90 91 92 93 94 99 100 -1 
+links :-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+TIME TO INSERT KEY(90): 0.001555 ms
+
+
